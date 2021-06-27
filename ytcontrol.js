@@ -11,7 +11,8 @@ document.addEventListener("keyup", event => {
        vdbox[index].style.backgroundColor = "white";
 	   index+=keys[event.keyCode];
 	   if(index<0)index=0;
-       vdbox[x].style.backgroundColor = "red";
+	   vdbox[index].style.textallign="centre";
+       vdbox[index].style.backgroundColor = "red";
 })
 
 
