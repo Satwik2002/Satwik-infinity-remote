@@ -11,7 +11,7 @@ document.addEventListener("keyup", event => {
        vdbox[index].style.backgroundColor = "white";
 	   index+=keys[event.keyCode];
 	   if(index<0)index=0;
-	   vdbox[index].scrollIntoView({block:"center"});
+	   vdbox[index].scrollIntoView({block:"center",behaviour:"smooth"});
        vdbox[index].style.backgroundColor = "red";
 	   vdbox = document.querySelectorAll("#content.style-scope ytd-rich-item-renderer");
 
